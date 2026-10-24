@@ -1,21 +1,27 @@
-# Python Ders Örnekleri
+English | [Türkçe](README.tr.md)
 
-Derslerde Python ve tkinter anlatırken yazdığım küçük uygulamaları tek yerde topladım. Hepsi kısa, kodu okuyup kurcalamak için birebir.
+# Python class examples
 
-- `calculator`: tkinter ile basit hesap makinesi
-- `fastWriteTest`: yazma hızı ve doğruluk testi
-- `matMemoryGame`: işlemle sonucunu eşleştirdiğin 4x4 hafıza oyunu
-- `QRCodeCreator`: yazdığın metni ya da linki QR koda çevirip PNG kaydediyor
-- `rockPaperScissors`: 5 puana kadar taş kağıt makas
-- `youtubeVideoLoader`: seçtiğin kalitede YouTube videosu indiriyor
+Small Python and tkinter apps I wrote while teaching. Each one is short and meant to be read and tinkered with.
 
-Çalıştırmak için Python 3 yeterli, tkinter zaten Python ile geliyor. Klasöre girip içindeki .py dosyasını çalıştırıyorsun:
+| Folder | What it does |
+|--------|--------------|
+| `calculator` | Simple calculator with tkinter |
+| `fastWriteTest` | Typing speed and accuracy test |
+| `matMemoryGame` | 4x4 memory game: match each sum with its result |
+| `QRCodeCreator` | Turns text or a link into a QR code and saves it as PNG |
+| `rockPaperScissors` | Rock paper scissors, first to 5 points |
+| `youtubeVideoLoader` | Downloads a YouTube video in the quality you pick |
 
-```
+## Running
+
+Python 3 is enough; tkinter ships with it.
+
+```bash
 cd calculator
 python calculator.py
 ```
 
-QRCodeCreator ve youtubeVideoLoader için önce o klasörde `pip install -r requirements.txt` yapman lazım. Her klasörün kendi README'sinde biraz daha detay var.
+`QRCodeCreator` and `youtubeVideoLoader` need `pip install -r requirements.txt` in their folder first. Each folder has its own README with a bit more detail.
 
-Geliştirici: Oğuzhan Bilir
+Developer: Oğuzhan Bilir
